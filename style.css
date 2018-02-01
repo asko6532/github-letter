@@ -18,6 +18,16 @@ body {
 	padding-right: 20%;
 }
 
+main {
+	background-color: rgba(0,0,0,.7);
+	border-radius: 2%;
+}
+
+.content {
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
 header {
 	display: flex;
 	align-items: center;
@@ -25,6 +35,13 @@ header {
 
 ul {
 	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 40%;
+	padding-right: 40%;
+	font-size: 15pt;
+	padding-bottom: 5%;
+
 }
 
 a {
