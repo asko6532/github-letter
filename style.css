@@ -7,7 +7,9 @@
 
 body {
 	background-image: url(../img/water.jpg);
-	font-family: 'Dhurjati', sans-serif;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	font-family: 'Josefin Sans', sans-serif;
 	color: white;
 	font-size: 25pt;
 }
@@ -24,6 +26,8 @@ main {
 }
 
 .content {
+	padding-top: 2%;
+	padding-bottom: 2%;
 	padding-left: 3%;
 	padding-right: 3%;
 }
@@ -37,11 +41,21 @@ ul {
 	list-style: none;
 	display: flex;
 	justify-content: space-between;
-	padding-left: 40%;
-	padding-right: 40%;
+	padding-left: 30%;
+	padding-right: 30%;
+	padding-top:2%;
 	font-size: 15pt;
-	padding-bottom: 5%;
+	padding-bottom: 2%;
+	background-color: rgba(0,0,0,.7);
 
+}
+
+span.c {
+	color: #CC6699;
+}
+
+li {
+	padding: 2%;
 }
 
 a {
